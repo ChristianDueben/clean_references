@@ -195,7 +195,7 @@ int main(int argc, char* argv[]) {
                 refs[ref.entry_name] = reference;
               }
               ref = Ref();
-            } else if(c != ' ' && c != ',') {
+            } else if(c != ' ' && c != ',' && c != '"') {
               if(c == '=') {
                 if(field.key.empty()) {
                   ref_error(ref, field, inside);
