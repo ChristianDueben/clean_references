@@ -8,7 +8,7 @@
 #include <iostream>
 #include <ranges>
 
-// boolean on where the position of the current character
+// boolean on the position of the current character
 struct Inside {
   bool ref = false;
   bool comment = false;
