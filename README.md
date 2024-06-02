@@ -15,6 +15,7 @@ This is a tool to clean a bibtex file. It i.a....
 - drops other fields
 - removes white space from `volume`, `number`, `year`, and `pages` values
 - separates pages in the `pages` value with a single hyphen
+- case-insensitively removes initial `the` from journal names
 - wraps `title` and `booktitle` values in doube braces, others in single braces
 - removes double white space
 - trims white space surrounding field values
