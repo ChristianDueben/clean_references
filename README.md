@@ -84,7 +84,7 @@ Year        = {2013},
 bibtex_output.bib
 ```
 % 3 references
-% Entry Names: Ackermann2020, Dueben2023, Wilkinson2013
+% entry names: Ackermann2020, Dueben2023, Wilkinson2013
 
 % Modern research at the intersection of remote sensing and economics
 % mention in introduction
@@ -100,6 +100,7 @@ bibtex_output.bib
 @article{Dueben2023,
   author      = {Christian Düben and Melanie Krause},
   title       = {{The Emperor's Geography - City Locations, Nature and Institutional Optimisation}},
+  journal     = {Economic Journal},
   volume      = {133},
   number      = {651},
   year        = {2023},
